@@ -30,8 +30,8 @@
     <link rel="stylesheet" href="../css/globalResponsive.css" />
   </head>
   <body>
-    <div class="hero_section">
-      <div class="mx-auto lg:px-20 px-4">
+    <div class="hero_section mx-auto max-w-screen-xl ">
+      <div class="mx-auto lg:px-20 px-6">
         <!-- Navigation -->
         <nav class="pt-5">
           <div class="flex items-center justify-between flex-wrap">
@@ -65,13 +65,19 @@
         </nav>
         <!-- Navigation end -->
         <!-- Hero Content -->
-        <div class="hero_content">
+        <div class="hero_content lg:block hidden">
           <h1>DETROIT AIRPORT EXPRESS</h1>
           <p>
             Book Detroit Airport Express shuttles fast. Seamless online ticket
             purchases to the airport and downtown on time. Book now and embark
             confidently!
           </p>
+        </div>
+        <!-- mobile version -->
+        <div class="text-white lg:hidden block my-10 space-y-6 ">
+          <p class="text-3xl font-semibold leading-10 tracking-[5px]"  >YOUR GATEWAY TO EFFORTLESS TRAVEL</p>
+          <p class="leading-7 text-[12.24px]">With seamless booking, comfortable rides, and reliable service, we ensure your journey is smooth from start to finish.
+            Book your ticket now and embark on your next adventure with confidence.</p>
         </div>
       </div>
     </div>
@@ -250,6 +256,7 @@
             <div class="flex items-center border-r-2 py-12 px-5 w-1/6">
               <img src="../assets/clarity_calendar-line.png" alt="Arrive" />
               <input
+                datepicker
                 type="text"
                 id="departure-date"
                 placeholder="Departure Date"
@@ -259,6 +266,7 @@
             <div class="flex items-center pl-5 w-1/4">
               <img src="../assets/clarity_calendar-line.png" alt="Arrive" />
               <input
+              datepicker
                 type="text"
                 id="departure-date"
                 placeholder="Return Date w-full"
@@ -277,7 +285,7 @@
       </div>
     </div>
     <!-- **********Booking_mobile*********** -->
-    <div class="mx-auto lg:px-20 px-4 md:hidden block">
+    <div class="mx-auto lg:px-20 px-6 md:hidden block">
       <div class="mobile_booking">
         <div class="flex items-center">
           <div>
@@ -312,7 +320,7 @@
           <div class="w-2/5">
             <label for="">Departure Date</label>
             <div class="flex items-center p-3 border rounded-lg">
-              <input type="text" class="focus:outline-none w-2/5" />
+              <input datepicker type="text" class="focus:outline-none w-2/5" />
             </div>
           </div>
           <img
@@ -324,7 +332,7 @@
           <div class="w-2/5">
             <label for="">Return Date</label>
             <div class="flex items-center p-3 border rounded-lg">
-              <input type="text" class="focus:outline-none w-2/5" />
+              <input datepicker type="text" class="focus:outline-none w-2/5" />
             </div>
           </div>
         </div>
@@ -783,5 +791,7 @@
     <!-- **********footer************ -->
 
     <script src="../script/index.js"></script>
+    <script src="../path/to/flowbite/dist/datepicker.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/datepicker.min.js"></script>
   </body>
 </html>
