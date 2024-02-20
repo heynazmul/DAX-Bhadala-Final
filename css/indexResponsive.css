@@ -72,17 +72,21 @@
        height: auto;
       }
 }
+<<<<<<< HEAD
 @media screen and (max-width:767px){
   .hero_section{
     padding-bottom: 100px;
   
   }
 }
+=======
+>>>>>>> 0760fafb2863a0537318b53db38f734cb5ddf426
 @media screen and (max-width:640px){
     .map_details{
         grid-template-columns: repeat(1,1fr);
        
       }
+<<<<<<< HEAD
   
 }
 
@@ -103,3 +107,6 @@
     margin-top: -28%;
   }}
 
+=======
+}
+>>>>>>> 0760fafb2863a0537318b53db38f734cb5ddf426

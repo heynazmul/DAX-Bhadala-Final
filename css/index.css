@@ -47,6 +47,7 @@
   background-color: #FFFFFF;
   border-radius: 10px;
   box-shadow: 0 2px 7px 0 #0000001A;
+<<<<<<< HEAD
   padding: 30px 20px;
   margin-top: -15%;
 }
@@ -54,6 +55,12 @@
 margin-top: 10px;
 margin-right: -11px;
 }
+=======
+  padding: 20px 15px;
+  margin-top: -25%;
+}
+
+>>>>>>> 0760fafb2863a0537318b53db38f734cb5ddf426
 .accordion-header {
   padding: 10px;
   cursor: pointer;

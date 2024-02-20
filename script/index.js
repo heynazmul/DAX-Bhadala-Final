@@ -23,6 +23,10 @@ function toggleDropdown() {
 // *************accordion**********
 document.addEventListener('DOMContentLoaded', function () {
   const accordionItems = document.querySelectorAll('.accordion-item');
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0760fafb2863a0537318b53db38f734cb5ddf426
   accordionItems.forEach(item => {
     const header = item.querySelector('.accordion-header');
     header.addEventListener('click', function () {
@@ -33,6 +37,10 @@ document.addEventListener('DOMContentLoaded', function () {
 // *************info-accordion**********
 document.addEventListener('DOMContentLoaded', function () {
   const accordionItems = document.querySelectorAll('.info_accordion_item');
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0760fafb2863a0537318b53db38f734cb5ddf426
   accordionItems.forEach(item => {
     const header = item.querySelector('.info_accordion_header');
     header.addEventListener('click', function () {
@@ -40,6 +48,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 });
+<<<<<<< HEAD
 // *************modile-nav-accordion**********
 document.addEventListener('DOMContentLoaded', function () {
   const accordionItems = document.querySelectorAll('.nav_accordion_item');
@@ -50,6 +59,8 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 });
+=======
+>>>>>>> 0760fafb2863a0537318b53db38f734cb5ddf426
 // *************Metro-Detroit**********
 var acc = document.getElementsByClassName("accordion");
 var i;

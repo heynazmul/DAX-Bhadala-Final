@@ -33,12 +33,21 @@
 </head>
 <body>
     <div class="book_navigation_section pb-11">
+<<<<<<< HEAD
         <div class="mx-auto lg:px-16 px-4 2xl:w-[1536px]">
           <!-- Navigation -->
           <nav class="pt-5 z-50">
             <div class="flex items-center justify-between flex-wrap">
               <div class="logo">
                 <img class="md:w-[245px] md:h-[76px] w-[110px] h-[35px]" src="../assets/Logo.png" alt="" srcset="" />
+=======
+        <div class="mx-auto lg:px-16 px-4">
+          <!-- Navigation -->
+          <nav class="pt-4">
+            <div class="flex items-center justify-between flex-wrap">
+              <div class="logo">
+                <img src="../assets/Logo.png" alt="" srcset="" />
+>>>>>>> 0760fafb2863a0537318b53db38f734cb5ddf426
               </div>
               <div class="hidden md:block">
                 <ul class="desktop_menu flex items-center">
@@ -51,6 +60,7 @@
                 </ul>
               </div>
               <!-- Mobile Menu -->
+<<<<<<< HEAD
               <div class="block md:hidden z-50 relative">
                 <div class="offcanvas-menu" id="offcanvasMenu">
                   <span class="close-icon" onclick="toggleMenu()">&times;</span>
@@ -76,6 +86,15 @@
                     </div>
                   </div>
                   <button class="border border-[#F8A930] text-[#F8A930] w-[90%] absolute bottom-10 right-8 rounded-[10px] py-2"><i class="fas fa-user mr-2"></i> Sign In</button>
+=======
+              <div class="block md:hidden">
+                <div class="offcanvas-menu" id="offcanvasMenu">
+                  <span class="close-icon" onclick="toggleMenu()">&times;</span>
+                  <a href="#" class="menu-link">Home</a>
+                  <a href="#" class="menu-link">About</a>
+                  <a href="#" class="menu-link">Services</a>
+                  <a href="#" class="menu-link">Contact</a>
+>>>>>>> 0760fafb2863a0537318b53db38f734cb5ddf426
                 </div>
                 <div class="menu-toggle" id="menuToggle" onclick="toggleMenu()">
                   &#9776;
@@ -85,7 +104,11 @@
           </nav>
         </div>
         <!-- Navigation end -->
+<<<<<<< HEAD
         <div class="border-t border-gray-500 w-full block mt-5"></div>
+=======
+        <di class="border-t border-gray-500 w-full block mt-5"></di>
+>>>>>>> 0760fafb2863a0537318b53db38f734cb5ddf426
         <!-- **************stepper************** -->
         <div class="mx-auto lg:px-16 px-4">
           <div class="flex items-center justify-center mt-10 ">
@@ -140,7 +163,11 @@
       </div>
       <!-- Hero Content end -->
       <!-- ******************pay_section*********** -->
+<<<<<<< HEAD
       <section class="md:bg-white py-10">
+=======
+      <section class="md:bg-white">
+>>>>>>> 0760fafb2863a0537318b53db38f734cb5ddf426
             <div class="lg:px-14 px-4 mx-auto">
                 <div class="grid md:grid-cols-2 gap-5">
                    <div>
@@ -190,7 +217,11 @@
                       <!-- ----------cards---- -->
                       <div id="Credit_desktop" class="my-12 payment_desktop">
                         <div class="my-10">
+<<<<<<< HEAD
                           <p class="text-[#626262] my-3">card information</p>
+=======
+                          <p>card information</p>
+>>>>>>> 0760fafb2863a0537318b53db38f734cb5ddf426
                           <div class="border border-gray-300 rounded-md bg-white">
                             <div class="space-y-2 flex">
                               <input type="text" name=""  class=" focus:outline-none w-full ring-gray-300 pl-10 p-2.5 "  placeholder="1234 1234 1234 1234">
@@ -278,6 +309,7 @@
                      </div>
                      <!-- ---------payment-method-mobile--- -->
                      <div class="block md:hidden">
+<<<<<<< HEAD
                        <h1 class="font-semibold my-5">Chose Payment Method</h1>
                        <div class="flex  justify-between my-10">
                         <div class="border hover:border-amber-500 duration-500 sm:w-20 sm:h-[60px] w-[70px] h-[50px] bg-white flex items-center justify-center rounded-[5px]"onclick="openPayment('Zelle')"><img src="../assets/pay-card-icon-4.png" alt="" srcset=""></div>
@@ -358,11 +390,49 @@
                       
                        <!-- ---Cash--- -->
                        <div id="Cash" class="bg-white rounded-[10] pt-3 pb-5 my-10 px-4 rounded-[10px] payment hidden">
+=======
+                       <h1 class="font-semibold">Chose Payment Method</h1>
+                       <div class="flex  justify-between my-10">
+                           <div class="sm:w-20 sm:h-[60px] w-[70px] h-[50px] bg-white flex items-center justify-center rounded-[5px]" onclick="openPayment('Credit')"><img src="../assets/pay-card-icon.png" alt="" srcset=""></div>
+                           <div class="sm:w-20 sm:h-[60px] w-[70px] h-[50px] bg-white flex items-center justify-center rounded-[5px]"onclick="openPayment('Cash')"><img src="../assets/pay-card-icon-2.png" alt="" srcset=""></div>
+                           <div class="sm:w-20 sm:h-[60px] w-[70px] h-[50px] bg-white flex items-center justify-center rounded-[5px]" onclick="openPayment('Paypal')"><img src="../assets/pay-card-icon-3.png" alt="" srcset=""></div>
+                           <div class="sm:w-20 sm:h-[60px] w-[70px] h-[50px] bg-white flex items-center justify-center rounded-[5px]"onclick="openPayment('Zelle')"><img src="../assets/pay-card-icon-4.png" alt="" srcset=""></div>
+                       </div>
+                       <!-- ---credit--- -->
+                       <div id="Credit" class="bg-white rounded-[10] py-2 px-4 rounded-[10px] payment">
+                        <div class="py-2 px-2">
+                          <h1 class="text-[#D99749] text-base">Card Details</h1>
+                          <p class="text-[#626262] text-[10px] mb-5">card information</p>
+                          <div class="border border-gray-300 rounded-md bg-white">
+                            <div class="space-y-2 flex">
+                              <input type="text" name=""  class=" focus:outline-none w-full ring-gray-300 pl-10 p-2.5 "  placeholder="1234 1234 1234 1234">
+                                <img src="../assets/image 7.png" alt="" class="justify-end w-[100px] h-8 mr-3" style="margin-top: -2%;">
+                              </div>
+                              <div class="flex">
+                                <input type="text" name="" id=""  class=" focus:outline-none ring-1 block w-full ring-gray-300 p-2.5 " placeholder="MM/YY">
+                                <input type="text" name="" id="" class=" focus:outline-none ring-1 block w-full ring-gray-300 p-2.5 " placeholder="CVV">
+                              </div>
+                            </div>
+                            <div class="space-y-2 my-3 ">
+                              <label for="" class="text-sm">Cardholder Name</label>
+                              <input type="text" name="first_name" id="first_name" class="focus:outline-none ring-1 block w-full font-light rounded-md ring-gray-300 p-2.5 " placeholder="Full name on card">
+                            </div>
+                            <div class="space-y-2 my-3">
+                              <label for="" class="text-sm">Eamil</label>
+                              <input type="text" name="first_name" id="first_name" class="focus:outline-none ring-1 block w-full font-light rounded-md ring-gray-300 p-2.5 " placeholder="Email Address">
+                            </div>
+                            <a href="#" class="bg-amber-500 py-3 rounded-lg flex justify-center ">Pay $15.00</a>
+                          </div>
+                       </div>
+                       <!-- ---Cash--- -->
+                       <div id="Cash" class="bg-white rounded-[10] py-2 px-4 rounded-[10px] payment hidden">
+>>>>>>> 0760fafb2863a0537318b53db38f734cb5ddf426
                           <div class="bg-white p-2">
                             <div class="flex  items-center bg-[#F9F9F9] px-1 py-4 rounded-[10px]">
                               <img src="../assets/material-symbols_open-in-phone-outline.png" alt="" srcset="">
                               <p class="text-[10px] sm:text-[14px] ml-4">You will be redirected to Cash app to securely submit your payment information</p>
                             </div>
+<<<<<<< HEAD
                           </div>
                           <div x-data="{ loading: false }">
                             <button @click="loading = true; setTimeout(() => loading = false, 2000)"
@@ -445,10 +515,136 @@
               <div class="flex gap-x-5">
                 <img class="w-9 h-9" src="../assets/ic_outline-facebook.png" alt="">
                 <img class="w-9 h-9" src="../assets/ri_instagram-fill.png" alt="">
+=======
+                            <button class="bg-[#F8A930] w-full py-2 rounded-md mt-5"><p>Pay <span class="text-[#09355E] font-semibold">$15.00</span></p></button>
+                          </div>
+                       </div>
+                       <!-- ---credit--- -->
+                       <div id="Paypal" class="bg-white rounded-[10] py-2 px-4 rounded-[10px] payment hidden">
+                       fff
+                       </div>
+                       <!-- ---Zelle--- -->
+                       <div id="Zelle" class="bg-white rounded-[10] py-2 px-4 rounded-[10px] payment hidden">
+                      zzz
+                       </div>
+
+                    <!-- ----ticket-summery-- -->
+                       <div>
+                        <div class="pay_accordion_item">
+                          <div class="pay_accordion_header">
+                           <div class="flex items-center">
+                            <p class="font-semibold mr-3">Ticket Summary</p> <span>Edit </span>
+                           </div>
+                            <i class="fas fa-chevron-down"></i></div>
+                          <div class="pay_accordion_content">
+                            <div>
+                              <div class="bg-[#F9F9F9]  p-8">
+                                <div class="flex justify-between">
+                                  <p class="font-bold">Ticket Summary</p>
+                                  <p>Wed, 02/07</p>
+                                </div>
+                                <div class="bg-[#09355E] sm:p-8 p-2 flex flex-wrap justify-between text-white rounded-md my-8">
+                                  <div class="flex items-center gap-x-2 " >
+                                    <div class="bg-black p-1 px-2 rounded-md">
+                                      102
+                                    </div>
+                                    <div class="sm:text-base [11px]">
+                                      <p>(9:00 AM) DTW -</p> 
+                                      <p> (9:35 AM) Downtown Detroit </p>
+                                    </div>
+                                  </div>
+                                  <div class="bg-amber-500 px-8 py-2 rounded-md flex items-center text-[#09355E] ">
+                                    $15
+                                  </div>
+                                </div>
+                                <div class="flex justify-between items-center border-b border-gray-800">
+                                  <div class="flex gap-x-8 my-5">
+                                    <p>Julia Robert</p>
+                                    <p>. Adult</p>
+                                  </div>
+                                  <p>$15.00</p>
+                      
+                                </div>
+                                <div class="flex justify-between mt-5">
+                                  <p class="underline underline-offset-1 text-[#09355E]">Add Voucher</p>
+                                  <p class="text-[#2B7723]"><span class="font-semibold text-[#65656B]">Total :</span> $15.00</p>
+                                </div>
+                               </div>
+                            </div>
+                             </div>
+                          </div>
+                       </div>
+                     </div>
+                   </div>
+                    <!-- ----info-ticket-summary--- -->
+                      <div class="md:mt-12 mt-0">
+                       <div class="bg-[#F9F9F9] md:block hidden p-8">
+                        <div class="flex justify-between">
+                          <p class="font-bold">Ticket Summary</p>
+                          <p>Wed, 02/07</p>
+                        </div>
+                        <div class="bg-[#09355E] p-6 flex justify-between flex-wrap text-white rounded-md my-8">
+                          <div class="flex items-center gap-x-2">
+                            <div class="bg-black p-1 px-2 rounded-md">
+                              102
+                            </div>
+                            <div class="lg:text-base text-[12px]">
+                              <p>(9:00 AM) DTW -</p> 
+                              <p> (9:35 AM) Downtown Detroit </p>
+                            </div>
+                          </div>
+                          <div class="bg-amber-500 px-8 py-2 rounded-md flex items-center text-[#09355E] ld:mt-0 mt-3">
+                            $15
+                          </div>
+                        </div>
+                        <div class="flex justify-between items-center border-b border-gray-800">
+                          <div class="flex gap-x-8 my-5">
+                            <p>Julia Robert</p>
+                            <p>. Adult</p>
+                          </div>
+                          <p>$15.00</p>
+              
+                        </div>
+                        <div class="flex justify-between mt-5">
+                          <p class="underline underline-offset-1 text-[#09355E]">Add Voucher</p>
+                          <p class="text-[#2B7723]"><span class="font-semibold text-[#65656B]">Total :</span> $15.00</p>
+                        </div>
+                       </div>
+                        <div class="space-y-4 md:mt-12">
+                          <p class="font-semibold">Payment Details</p>
+                          <div class="bg-[#F9F9F9] p-8">
+                            <div class="flex gap-x-3 items-center mb-5">
+                              <input type="checkbox" id="" name="" value="">
+                              <p class="text-sm">I have read <span class="text-[#09355E]">Terms and Conditions</span>. You will receive an email confirmation with your ticket’s boarding QR code.</p>
+                            </div>
+                            <div class="flex gap-x-3 items-center">
+                              <input type="checkbox" id="" name="" value="">
+                              <p class="text-sm">Tickets are Non-refundable at the time of purchase. Changes for reservation’s time and date can be made up to 20 minutes prior to scheduled departure</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                </div>
+            </div>
+      </section>
+<!-- **********footer************ -->
+<footer class="bg-[#122D5A] py-16">
+  <div class="mx-auto lg:px-20  px-4">
+      <div class="footer_content">
+          <div class=""> 
+            <img src="../assets/footer-logo.png" alt="">
+            <h6 class="py-8">Copyright © 2024 <br>
+              Bhadala, All Rights Reserved</h6>
+              <div class="flex">
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-facebook px-8"></i>
+>>>>>>> 0760fafb2863a0537318b53db38f734cb5ddf426
                 <img class="w-9 h-9" src="../assets/twitter.png" alt="">
               </div>
           </div>
          <!-- ------- -->
+<<<<<<< HEAD
          <div class="flex font-light col-span-full lg:col-span-4">
           <div>
             <p class="pb-3 text-base md:text-xl">Explore</p>
@@ -457,10 +653,21 @@
               <a href="http://" class="">Plan Your Visit</a>
               <a href="http://">How it Works</a>
               <a href="http://" class="">Blogs</a>
+=======
+         <div class="flex">
+          <div>
+            <h6>Explore</h6>
+            <div class="flex flex-col">
+              <a href="http://">Home</a>
+              <a href="http://" class="py-4">Plan Your Visit</a>
+              <a href="http://">How it Works</a>
+              <a href="http://" class="py-4">Blogs</a>
+>>>>>>> 0760fafb2863a0537318b53db38f734cb5ddf426
               <a href="http://">Locations</a>
             </div>
           </div>
           <div class="ml-12">
+<<<<<<< HEAD
             <p class="pb-3 text-base md:text-xl">Contact</p>
             <div class="flex items-center gap-x-2">
               <img src="../assets/ic_outline-email.png" alt="">
@@ -482,6 +689,22 @@
                   </svg>
               </div>
               <button class="bg-[#F8A930] md:text-[14px] text-[#09355E] text-[10px] w-[100px] h-[40px] rounded-md">Sign Up</button>
+=======
+            <h6>Contact</h6>
+            <div>
+              <p><i class="far fa-envelope mr-3"></i> info@bhadala.com</p>
+            </div>
+            <div class="pt-4">
+              <p><i class="far fa-paper-plane mr-3"></i> 2050 15TH ST DETROIT MI 4816</p>
+            </div>
+          </div>
+         </div>
+          <div >
+            <h6>Subscribe to Newsletter</h6>
+            <div class="flex ">
+              <div class="relative 2xl:w-9/12 xl:w-8/12 lg:w-7/12	sm:w-6/12 "><input type="text" placeholder="Enter Your Email Address" ><i class="far fa-envelope absolute left-3 top-3"></i> </div>
+              <button class="bg-[#F8A930] md:text-[14px] text-[#09355E] text-[10px] w-[100px] h-[40px] rounded-lg">Sign Up</button>
+>>>>>>> 0760fafb2863a0537318b53db38f734cb5ddf426
             </div>
           </div>
       </div>

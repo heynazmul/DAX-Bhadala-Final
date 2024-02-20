@@ -39,7 +39,10 @@ body {
     padding: 20px;
     transition: all 0.3s ease;
     box-sizing: border-box;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0760fafb2863a0537318b53db38f734cb5ddf426
   }
   
   .offcanvas-menu.active {
@@ -60,7 +63,11 @@ body {
   
   .menu-toggle {
     position: absolute;
+<<<<<<< HEAD
     top: -18px;
+=======
+    top: 40px;
+>>>>>>> 0760fafb2863a0537318b53db38f734cb5ddf426
     right: 20px;
     cursor: pointer;
     color: #fff;
